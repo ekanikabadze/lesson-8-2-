@@ -70,10 +70,11 @@ background-repeat: no-repeat;}
   }
   .section2-title{text-align: center;}
   .line-1 {display: flex;
-  	justify-content: space-between;}
-  	.line-2 {display: flex;
   	justify-content: space-between;
-  	margin-top: 25px;}
+  flex-wrap: wrap;}
+ /* 	.line-2 {display: flex;
+  	justify-content: space-between;
+  	margin-top: 25px;}*/
   	.icon-cont{display: flex;
   		width: 88px;
   		height: 88px;
